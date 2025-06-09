@@ -8,4 +8,6 @@ if gpa >= 3.7:
 else:
     print("The applicant needs to improve their GPA to be eligible for a low APR student loan")
     print("The applicant is not eligible for a low APR student loan")
-    
+if gpa < 2.0:
+    print("The applicant is not eligible for a low APR student loan")   
+
